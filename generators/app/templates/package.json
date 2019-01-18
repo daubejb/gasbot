@@ -1,0 +1,13 @@
+{
+    "name": "<%= props.name %>",
+    "version": "<%= props.version %>",
+    "description": "<%= props.description %>",
+    "main": "Code.js",
+    "author": "<%= props.author %>",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/google-apps-script": "^0.0.32",
+        "typescript": "^3.2.1",
+        "eslint": "^5.12.0"
+    }
+}

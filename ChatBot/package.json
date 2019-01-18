@@ -1,0 +1,13 @@
+{
+    "name": "ChatBot",
+    "version": "0.0.1",
+    "description": "A scaffolded Google Apps Script Chat Bot provided by daubedesign",
+    "main": "Code.js",
+    "author": "Jeffrey B Daube",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/google-apps-script": "^0.0.32",
+        "typescript": "^3.2.1",
+        "eslint": "^5.12.0"
+    }
+}
