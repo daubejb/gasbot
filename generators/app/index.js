@@ -17,7 +17,7 @@ module.exports = class extends Generator {
 
         // Have Yeoman greet the user.
         this.log(
-            yosay(`Welcome to the awesome ${chalk.red('generator-gasbot')} generator!`)
+            yosay(`Welcome to the awesome ${chalk.red('Google Apps Script Hangouts Chat Bot')} generator!`)
         );
 
         return this.prompt(
@@ -121,7 +121,7 @@ module.exports = class extends Generator {
             this.templatePath('.clasp.json'),
             this.destinationPath('.clasp.json'),
             this
-        );
+        )
     }
 
     install() {

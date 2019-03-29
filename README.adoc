@@ -1,0 +1,57 @@
+= Yo Gasbot - A Google Apps Script Chat Bot Generator
+:toc:
+:linkattrs:
+:imagesdir: images
+:source-highlighter: pygments
+
+Welcome Google Apps Script developers!
+To avoid typing Google Apps Script dozens of more times, GAS will be used onwards.
+This https://yeoman.io/[Yoeman] generator will quickly generate a
+ https://developers.google.com/hangouts/chat/quickstart/apps-script-bot[GAS Hangouts Chat Bot].
+
+== Value provided by gasbot
+
+*By using this generator, you get an instant local development environment configuration for:*
+
+- Boilerplate chat bot code
+- JavaScript code linting
+- TypeScript configuration
+- Google Apps Script code auto-completion configuration
+- Google clasp configuration
+
+*The generator automatically creates the following files based on your input:*
+
+- *Code.js* - The main script file.  On the GAS project, the file is named _Code.gs_
+- *appsscript.json* - The GAS project _manifest_, specifies info needed to run
+- *.clasp.json* - Stores the unique GAS scriptId for use in
+ https://developers.google.com/apps-script/guides/clasp[clasp] functions
+- *.claspignore* - Similar to .gitignore, what not to push to the GAS project
+- *.eslintrc.json* - Rules and configurations for linting
+- *.gitignore* - Specifies what files not to commit to git
+- *.jsconfig.json* - Used for linting and auto-completion
+- *package.json* - Specifies the https://www.npmjs.com/[npm]
+ dependencies required to setup the GAS project
+
+== Prerequisites
+
+1. Download and install
+ https://docs.npmjs.com/downloading-and-installing-node-js-and-npm[Node.js and npm]
+2. Execute the following command in your command line interaface: `npm install -g yo`
+3. Create, name, and, save a *GAS project*
+4. Copy or write down the projects *scriptId*
+5. Within terminal, navigate to the location on your computer where you would like to store your
+ local *project*
+
+== Generate the scaffoloded chat bot
+
+1. Within the command line interface, at desired location on your computer, execute the following
+ command: `yo gasbot`
+2. Answer the following questions asked by the generator, below are some examples:
+
+image::yogasbot.png[Yeoman Generator Questions Image]
+
+Notice that I did not enter a Script ID in the fourth question of the generator.
+If you do the same, you will have to manually input the scriptID into the key value pair Within
+ the `.clasp.json` file.
+This file must have a valid ScriptId for the `clasp` command line utility to communicate with
+ the GAS project.
