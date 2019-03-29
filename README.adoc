@@ -37,7 +37,7 @@ This https://yeoman.io/[Yoeman] generator will quickly generate a
 1. Download and install
  https://docs.npmjs.com/downloading-and-installing-node-js-and-npm[Node.js and npm]
 2. Execute the following command in your command line interaface: `npm install -g yo`
-3. Then execute this command: `npm install generator-gasbot -g`
+3. Then execute this command: `npm install -g generator-gasbot`
 4. Create, name, and, save a *GAS project*
 5. Copy or write down the projects *scriptId*
 6. Within terminal, navigate to the location on your computer where you would like to store your
