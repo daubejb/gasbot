@@ -45,7 +45,7 @@ This https://yeoman.io/[Yoeman] generator will quickly generate a
 6. Within terminal, navigate to the location on your computer where you would like to store your
  local *project*
 
-== Generate the scaffoloded chat bot
+== Generate the scaffolded chat bot
 
 1. Within the command line interface, at desired location on your computer, execute the following
  command: `yo gasbot`
