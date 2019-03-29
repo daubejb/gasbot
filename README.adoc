@@ -8,7 +8,7 @@ image::https://img.shields.io/badge/built%20with-clasp-4285f4.svg[link=https://g
 
 Welcome Google Apps Script developers!
 To avoid typing Google Apps Script dozens of more times, GAS will be used onwards.
-This https://yeoman.io/[Yoeman] generator will quickly generate a
+This https://yeoman.io/[Yeoman] generator will quickly generate a
  https://developers.google.com/hangouts/chat/quickstart/apps-script-bot[GAS Hangouts Chat Bot].
 
 == Value provided by gasbot
